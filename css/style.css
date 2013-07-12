@@ -1,0 +1,114 @@
+root { 
+    display: block;
+}
+
+body{
+    margin-top: 0;
+    background-color: #fff;
+}
+
+#container{
+    margin: 0 auto 20px auto;
+    width: 940px;
+    height: auto;
+    overflow-y: hidden;
+    background-color: #fff;
+    -moz-border-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border: solid 1px #fff;
+    -moz-box-shadow: 0 0 5px #888;
+    -webkit-box-shadow: 0 0 10px #888;
+    box-shadow: 0 0 10px #888;
+}
+
+#nav_container{
+    margin-top: 15px;
+    height: 30px;
+    width: 100%;
+    font-weight: normal;
+    border-bottom: dashed 1px #ccc;
+    margin-bottom: 10px;
+}
+
+#nav{
+    text-align: right;
+    height: 30px;
+    width: 930px;
+    margin:0 auto 0 auto;
+    line-height: 30px;
+    background-color: cornflowerblue;
+}
+
+div.spacer{
+    float: none;
+    height: 20px;
+    width: 100%;
+}
+
+#content{
+    margin:0 auto 0 auto;
+    width: 920px;
+    height:auto;
+}
+
+#columnLeft{
+    float: left;
+    width: 240px;
+    height: 200px;
+    background-color: azure;
+    margin-bottom: 20px;
+}
+
+#columnRight{
+    float: right;
+    width: 660px;
+    height: auto;
+    background-color: azure;
+    margin-bottom: 20px;
+}
+
+#roomType{
+   width: 100%;
+   height: 100px;
+   margin-bottom: 5px;
+   background-color: red;
+}
+
+#fullComp{
+   width: 100%;
+   height: 100px;
+   margin-bottom: 5px;
+   background-color: yellow;
+}
+
+#cruiseOnly{
+   width: 100%;
+   height: 100px;
+   margin-bottom: 5px;
+   background-color: green; 
+}
+
+#notes{
+   width: 100%;
+   height: 100px;
+   margin-bottom: 5px;
+   background-color: black; 
+}
+
+#description{
+   width: 100%;
+   height: 100px;
+   margin-bottom: 5px;
+   background-color: indigo; 
+}
+
+#category{
+   width: 100%;
+   height: 100px;
+   margin-bottom: 5px;
+   background-color: gray;   
+}
+
+
+
